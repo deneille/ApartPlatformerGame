@@ -3,7 +3,6 @@
 *.prefab binary
 *.mat binary
 *.meta text
-
 # ========== Text-Based Files (Track Line Endings Properly) ==========
 *.cs text eol=lf
 *.shader text eol=lf
@@ -13,32 +12,26 @@
 *.txt text eol=lf
 *.md text eol=lf
 *.csv text eol=lf
-
 # ========== Prevent Issues With Binary Assets ==========
-*.png binary
-*.jpg binary
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg binary
 *.psd binary
 *.tga binary
 *.gif binary
 *.bmp binary
-
-*.wav binary
+*.wav filter=lfs diff=lfs merge=lfs -text
 *.mp3 binary
 *.ogg binary
-
 *.fbx binary
 *.obj binary
-
 *.ttf binary
 *.otf binary
-
 # ========== Unity Lighting Data & Cache (Treated as Binary) ==========
 Lightmap-* binary
 LightingData.asset binary
-
 # ========== Ignore Merge Conflicts for Binary Files ==========
-*.mp4 binary
+*.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mov binary
 *.avi binary
 *.dll binary
