@@ -1,0 +1,61 @@
+# ========== Unity Auto-Generated Files ==========
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# ========== Unity Package Cache & Large Files ==========
+/[Pp]ackage[Cc]ache/
+/[Pp]ackages/
+/Packages/com.unity.burst*/Runtime/*
+
+# ========== Unity 2D Game Assets ==========
+# Ignore temporary asset imports & caches
+/Assets/**/*.import
+/Assets/**/Thumbs.db
+/Assets/**/*.bak
+
+# Ignore Auto-generated lighting data
+/Assets/**/LightingData.asset
+/Assets/**/Lightmap-*.*
+
+# Ignore Unity’s Play Mode Save states
+/PlayModeSaveData.json
+
+# ========== Visual Studio & Rider IDE Files ==========
+*.csproj
+*.sln
+*.suo
+*.user
+*.unityproj
+*.tmp
+*.svd
+*.pidb
+*.booproj
+*.ilk
+*.obj
+*.pdb
+*.swp
+*.bak
+*.log
+*.userprefs
+*.VC.db
+*.vspscc
+
+# ========== OS-Specific Files ==========
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*.pid
