@@ -99,6 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   worth: 6
+  distractionRadius: 5
+  collectiblePrefab: {fileID: 1435498803397459740}
 --- !u!58 &76652768344007097
 CircleCollider2D:
   m_ObjectHideFlags: 0
