@@ -21,6 +21,12 @@ public class PlayerHealth : MonoBehaviour
         GameController.OnReset += ResetHealth;
     }
 
+    void OnDisable()
+    {
+        // Unsubscribe to prevent memory leaks
+        GameController.OnReset -= ResetHealth;
+    }
+
     // Update is called once per frame
     private void OnTriggerEnter2D(UnityEngine.Collider2D collision)
     {

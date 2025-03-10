@@ -63,7 +63,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7219045866678180188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -2.18, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 0.2873, y: 0.32, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -267,6 +267,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 8c447f5a-8aa1-4885-b5b5-720d431ae907
     m_ActionName: Player/Jump[/Keyboard/space,/Keyboard/upArrow,/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3658d9b7-2ff5-4467-9ded-061ee56fb843
+    m_ActionName: Player/Hold[/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
